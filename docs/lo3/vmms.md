@@ -54,3 +54,9 @@ To find out what happens the day after tomorrow ($t = 2$), we take our new distr
 `Chance of Sunny`: $(0.8 \times 0.8) + (0.2 \times 0.5) = 0.64 + 0.10 = 0.74$ (74%)
 
 `Chance of Rainy`: $(0.8 \times 0.2) + (0.2 \times 0.5) = 0.16 + 0.10 = 0.26$ (26%)
+
+<br/>
+
+## N-Step Transition Matrix
+
+![Image](../../images/vmm-03.png)
