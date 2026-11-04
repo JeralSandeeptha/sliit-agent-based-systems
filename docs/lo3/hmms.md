@@ -42,6 +42,8 @@ Imagine trying to deduce whether a friend has a Fever or is Healthy (Hidden Stat
 
 ![Image](../../images/hmm-01.jpeg)
 
+![Image](../../images/hmm-04.png)
+
 <br/>
 
 **Initial State Distribution ($\pi$)**
