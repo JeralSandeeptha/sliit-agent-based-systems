@@ -69,6 +69,22 @@ KB={A, B, A->B}.  ---> wrong because b enatilment so we dont need to add B seper
 
 ## Equivalence Laws
 
+#### How to apply
+
+**1. Step 1: Destroy the arrows (\(\rightarrow \))**
+	• Rule: Change \(A \rightarrow B\) into \(\neg A \lor B\) (Think of this as: "Either the first thing is false, or the second thing must be true").
+
+**2. Step 2: Push negative signs (\(\neg \)) inside brackets**
+	• Rule (De Morgan's): Flip everything inside. \(\neg(A \lor B)\) becomes \(\neg A \land \neg B\).
+
+**3. Step 3: Expand or Factor out (Just like math brackets)**
+	• Rule (Distributive): Just like \(2 \times (x + y) = 2x + 2y\), you can distribute logic symbols.
+
+**4. Step 4: Clean up opposites**
+	• Rule (Complement): Something can't be true and false at the same time (\(P \land \neg P = \text{False}\)).
+
+<br/>
+
 #### 1. Idempotent Law
 
 \(P \lor P \equiv P\)
