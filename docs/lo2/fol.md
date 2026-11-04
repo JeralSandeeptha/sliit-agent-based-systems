@@ -139,3 +139,37 @@ Prove Q is true
 **Backward Chaining**
 
 ![Image](../../images/bc-01.png)
+
+<br/>
+
+## Unification
+
+- Making expressions look identical
+- To make them identical need to do `substitution`
+
+#### Conditions
+
+- Predicate Symbol should be same (if different they can not unified)
+- Arguments count should be similar
+- Will fail, if there are 2 similar variables present in the same expression
+- `first expression` should be identical to `second expression`
+
+Eg; failure `Loves(x, x)`, `Loves(John, Jane)`, `Knows(y, Mother(y))`
+
+<br/>
+
+#### Examples
+
+Unified,
+
+$\text{Knows}(f(x), x) 
+$$\text{Knows}(y, a)$ means
+
+1. Predicate/Action is similar --> can unified
+2. Doesn't have similar variables in the same expression --> can unified
+3. $\{ y / f(x) \}$ (read as: replace $y$ with $f(x)$)
+4. $\{ x / a \}$ (read as: replace $x$ with $a$)
+5. $y = f(x)$ becomes $y = f(a)$
+6. $$\theta = \{ y / f(a), x / a \}$$
+7. 
+Expression 1: $\text{Knows}(f(x), x) \xrightarrow{x \to a} \mathbf{\text{Knows}(f(a), a)}$Expression 2: $\text{Knows}(y, a) \xrightarrow{y \to f(a)} \mathbf{\text{Knows}(f(a), a)}$
