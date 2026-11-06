@@ -30,6 +30,8 @@ It has 2 Steps to get the optimal value
 
 ## Scenario & Equations
 
+![Image](../../images/kf-05.png)
+
 ```
 ┌───────────────────────────────────────────────────────----─┐
 │                   1. PREDICT STEP                          │
