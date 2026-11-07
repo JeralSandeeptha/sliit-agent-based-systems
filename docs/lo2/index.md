@@ -17,8 +17,6 @@ AI will analyze the statements and give the results. This analyze and representa
 
 - [Propositional Logic](./pl.md)
 - [First Order Logic / Predicate Logic](./fol.md)
-- [Frames]()
-- []()
 
 <br/>
 
